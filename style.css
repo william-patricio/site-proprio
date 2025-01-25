@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Gabriela&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Teko:wght@300..700&display=swap');
+body{
+    font-family: "Gabriela", serif;
+}
+
+header{
+    background-color: #5357da;
+    padding: 40px;
+    color: white;
+}
+
+header h1{
+    font-size: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-main h1{
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    margin: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+li{
+    display: inline;
+    list-style-type: none;   
+}
+
+.container-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 1920px;
+    height: 100vh;
+}
+
+.container-perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container-perfil img{
+    width: 700px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.foto{
+    display: block;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-perfil h1{
+    text-align: center;
+    font-size: 42px;
+}
+
+.container-perfil p{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 70px;
+}
+
+footer ul{
+    background-color: #5357da;
+}
+
+ul{
+    padding: 40px;
+    text-align: center;
+}
+
+li{
+    margin: 20px;
+}
+
+i{
+    font-size: 50px;
+}
